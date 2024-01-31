@@ -51,7 +51,7 @@ VTP (VLAN Trunking Protocol)
 - Implemented using router-on-a-stick technique.
 - VLANs hosts can communicate within the same VLAN.
 - Inter-VLAN communication is established between VLAN 20 and VLAN 40.
-- 
+
 # Access Control
 Access control is implemented between various hosts and servers based on the specified requirements.
 
@@ -65,11 +65,11 @@ Divide the network into subnets to optimize IP address utilization and manage ne
 
 
 # Technology Stack
-**Network Simulation Tool:** Cisco Packet Tracer
-**Routing Protocols:** EIGRP, OSPF, RIP
-**VLAN Configuration:** Cisco 3 layered switches
-**NAT Implementation:** Cisco routers
-**Subnetting:** IPv4 addressing
+- **Network Simulation Tool:** Cisco Packet Tracer
+- **Routing Protocols:** EIGRP, OSPF, RIP
+- **VLAN Configuration:** Cisco 3 layered switches
+- **NAT Implementation:** Cisco routers
+- **Subnetting:** IPv4 addressing
 
 
 # How to Run
@@ -80,6 +80,33 @@ Select Network Simulation Tool: Choose a network simulation tool compatible with
 Import Topology File: Load the provided topology file or manually configure devices, connections, and settings based on the project specifications.
 
 Start Simulation: Run the simulation and observe the behavior of VLANs, NAT, subnetting, and routing protocols within the network.
+
+# Snapshots
+
+### EIGRP block
+
+![image](https://github.com/laibairfan22/CN_project/assets/139337014/9d5a4f03-cf51-4509-8333-d601677f8075)
+
+
+### OSPF Area 1
+
+![image](https://github.com/laibairfan22/CN_project/assets/139337014/f7b4a024-b4b0-4571-97c5-a29683609aaa)
+
+
+### RIP blocck
+
+![image](https://github.com/laibairfan22/CN_project/assets/139337014/43ac8436-88a4-41f5-a691-bddabf14c522)
+
+
+
+### OSPF Area 0
+
+
+![image](https://github.com/laibairfan22/CN_project/assets/139337014/bf6125ca-61c5-486c-b8ac-5b8a85a2745c)
+
+
+
+
 
 
 
